@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!-- SEO Metadata -->
+    <title>sidharth subbarao</title>
+    <meta name="description" content="Personal website of Sidharth Subbarao — CS @ Georgia Tech | ML Systems" />
+    <meta name="keywords" content="Sidharth Subbarao, Georgia Tech, AI Research, CUDA, PyTorch, Machine Learning Systems" />
+    <meta name="author" content="Sidharth Subbarao" />
+
+    <!-- Open Graph for link previews -->
+    <meta property="og:title" content="Sidharth Subbarao" />
+    <meta property="og:description" content="CS @ Georgia Tech | ML Systems" />
+    <meta property="og:url" content="https://sidharth123-cpu.github.io/website/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Sidharth Subbarao" />
+    <meta name="twitter:description" content="Personal website of Sidharth Subbarao — CS @ Georgia Tech, AI + Systems." />
+
+    <!-- Tailwind + Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+        /* Improved styles for better readability and spacing */
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #374151; /* Tailwind gray-700 */
+            background-color: #ffffff; /* White background */
+            margin: 0; /* Reset margin */
+            padding: 0; /* Reset padding */
+            line-height: 1.7; /* Improved readability */
+            text-transform: lowercase; /* Keeping the lowercase aesthetic */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-size: 16px; /* Base font size */
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            min-height: 100vh; /* Full viewport height */
+        }
+        
+        .container {
+            max-width: 700px; /* Slightly narrower for better readability */
+            width: 100%; /* Full width up to max-width */
+            padding: 60px 30px; /* Increased padding for better content spacing */
+        }
+        
+        h1 {
+            font-size: 100rem; /* A little bigger title */
+            font-weight: 800; /* A bit bolder */
+            margin-bottom: 2.5rem;
+            color: #111827;
+            letter-spacing: -0.025em;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 0.75rem;
+        }
+        
+        h2 {
+            font-size: 2rem; /* Section title size */
+            font-weight: 800; /* A bit bolder for better visibility */
+            margin-top: 3.5rem;
+            margin-bottom: 1.5rem;
+            color: #111827;
+            border-bottom: 1px solid #f3f4f6;
+            padding-bottom: 0.5rem;
+        }
+        
+        p {
+            margin-bottom: 1.2rem; /* Reduced space below paragraphs */
+            font-size: 1rem;
+            line-height: 1.8; /* Slightly increased line height */
+        }
+        
+        /* Reduced space between consecutive paragraphs */
+        section p + p {
+            margin-top: 1.3rem; /* Reduced space between paragraphs */
+        }
+        
+        /* Removed special spacing class */
+        
+        a {
+            color: #2563eb; /* Blue links */
+            text-decoration: none;
+            font-weight: 500; /* Medium weight for links */
+            transition: color 0.2s ease-in-out;
+            border-bottom: 1px solid #e5e7eb; /* Subtle underline */
+            padding-bottom: 1px; /* Spacing for underline */
+        }
+        
+        a:hover {
+            color: #1d4ed8; /* Darker blue on hover */
+            border-bottom-color: #1d4ed8; /* Darker underline on hover */
+        }
+        
+        .contact-links {
+            margin-top: 1rem; /* Reduced space above contact links */
+            display: flex; /* Flex for better alignment */
+            gap: 1.5rem; /* Space between icons */
+            justify-content: flex-start; /* Left align icons */
+            padding: 0.7rem 0; /* Reduced padding */
+            /* No border */
+        }
+        
+        .contact-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #6b7280; /* Lighter gray for better minimalism */
+            transition: all 0.2s ease-in-out;
+            border-bottom: none; /* Remove underline for icons */
+            opacity: 0.8; /* Slightly transparent for minimalism */
+        }
+        
+        .contact-links a:hover {
+            color: #2563eb; /* Blue on hover */
+            transform: translateY(-2px); /* Subtle lift effect */
+            opacity: 1; /* Full opacity on hover */
+        }
+        
+        .contact-links svg {
+            width: 1.5rem; /* Slightly smaller icons */
+            height: 1.5rem;
+        }
+        
+        /* Section highlighting */
+        section {
+            padding: 1rem 0; /* Padding for sections */
+        }
+        
+        /* We only want section titles to be bold, handled by the h2 styling above */
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container">
+    <header>
+        <h1 style="font-size: 2.5rem; font-weight: 300;">sidharth subbarao</h1>
+    </header>
+
+    <section>
+        <h2 style="font-size: 1.5rem; font-weight: 40;">about</h2>
+        <p>
+        i am an engineer interested in the intersection of machine learning, systems, and performance. more specifically i'm interested in compiler optimizations, distributed systems, distributed training, and machine learning infrastructure.
+        currently, i am working on <a href="https://github.com/pytorch/pytorch" target="_blank" rel="noopener noreferrer"><strong>pytorch</strong></a>
+        at <strong>meta ai</strong> where im building pytorch 2.0 compiler's dynamo and inductor. i'm also a junior studying computer science student at georgia tech. i'm also incoming @ <strong>google</strong> where i'll be working on serving ML models for youtube's distributed reccomendation systems + ranking models. previously i worked on
+        many different things such as building a webapp <a href="https://www.pathcheck.org/karuna" target="_blank" rel="noopener noreferrer">karuna</a> at <strong>mit pathcheck</strong> which got 23.4 million users at its peak, was a machine learning researcher working on computer Vision / ai inference under Dr. Kyle Keane PhD,
+        did swe internships at <strong>amazon</strong>, <strong>hubspot</strong>, and <strong>union pacific railroad</strong>.
+        </p>
+
+
+    </section>
+
+    <section>
+        <h2 style="font-size: 1.5rem; font-weight: 40;">my interests</h2>
+        <p>
+            i care about building fast, scalable systems for foundation models — everything from training infrastructure and parallelism to low-latency inference at production scale.
+        </p>
+
+        <p>
+            more recently, I’ve been contributing to open-source compiler infrastructure in PyTorch 2.0, focusing on graph capture and low-level optimizations in TorchDynamo. My work involves improving code generation and execution paths to accelerate model performance through better tracing, graph transformations, and runtime-aware specialization across the Dynamo-Inductor stack.
+        </p>
+
+        <p>
+            i'm also interested in early to mid stage startups and quant finance.
+        </p>
+        
+        <p>
+            outside of cs, i watch tons of movies <a href="https://boxd.it/2zzmZ" target="_blank" rel="noopener noreferrer">letterboxd</a> and watch basketball with my friends
+        </p>
+    </section>
+
+    <section>
+        <h2 style="font-size: 1.5rem; font-weight: 40;">skills</h2>
+        <p>
+            Languages: Python, C++, Go, TypeScript, React, Java, JavaScript, C
+        </p>
+
+        <p>
+            Technologies: PyTorch, TensorFlow, NumPy, Triton, Hugging Face, AWS, Docker, Redis, Kubernetes, PostgreSQL
+        </p>
+    </section>
+
+    <section>
+        <h2 style="font-size: 1.5rem; font-weight: 40;">projects</h2>
+        <p>
+            some projects i've built in the past:
+        </p>
+
+        <p>
+            coming soon!
+        </p>
+    </section>
+
+    <section>
+        <h2 style="font-size: 1.5rem; font-weight: 40;">contact</h2>
+        <p>feel free to reach out at <strong>sidharth.subbarao17@gmail.com</strong>!</p>
+        <div class="contact-links">
+            <a href="mailto:sidharth.subbarao17@gmail.com" target="_blank" rel="noopener noreferrer" title="email">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+            </a>
+            <a href="https://x.com/sidharths248" target="_blank" rel="noopener noreferrer" title="x">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                </svg>
+            </a>
+            <a href="https://github.com/Sidharth123-cpu" target="_blank" rel="noopener noreferrer" title="github">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                    <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/sidsubbarao/" target="_blank" rel="noopener noreferrer" title="linkedin">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                    <rect width="4" height="12" x="2" y="9"/>
+                    <circle cx="4" cy="4" r="2"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+    </div>
+</body>
+</html>
